@@ -1,0 +1,57 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    margin-top: 50px;
+    color: rgb(14, 25, 25);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title span {
+    color: rgb(247, 251, 254);
+    padding-left: 15px;
+}
+
+.reset {
+    width: 250 px;
+    height: 70px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: rgb(4, 3, 3);
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background: rgb(255, 255, 255);
+    border: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.board {
+    height: 600px;
+    width: 564px;
+    display: flex;
+    margin: auto;
+}
+
+.boxes img {
+    margin: 50px 50px;
+}
+
+.title img {
+    padding: 20px 20px;
+    height: 50px;
+}
